@@ -11,15 +11,15 @@ public class IfElseErr {
 			grade = 'A';
 		}
 		
-		if (score >= 80) {
+		else if (score >= 80) {
 			System.out.println("80 이상");
 			grade = 'B';
 		}
-		if (score >= 70) {
+		else if (score >= 70) {
 			System.out.println("70 이상");
 			grade = 'C';
 		}
-		if (score >= 60) {
+		else if (score >= 60) {
 			System.out.println("60 이상");
 			grade = 'D';
 		} else {
