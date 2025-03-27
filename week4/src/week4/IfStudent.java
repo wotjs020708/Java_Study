@@ -22,6 +22,7 @@ public class IfStudent {
 		} else if (age >= 8 && age < 14) {
 			System.out.println("초등학생");
 		} else {
+			// 8세 미만 이거나(||) 26세 초과 인 경
 			System.out.println("학생이 아닙니다.");
 		}
 	}
