@@ -25,5 +25,7 @@ public class IfStudent {
 			// 8세 미만 이거나(||) 26세 초과 인 경
 			System.out.println("학생이 아닙니다.");
 		}
+		
+		sc.close();
 	}
 }

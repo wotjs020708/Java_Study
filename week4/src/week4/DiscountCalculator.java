@@ -21,6 +21,8 @@ public class DiscountCalculator {
 		int discountAmt = price * rate/ 100;
 		int finalPrice = price - discountAmt;
 		System.out.println("최종가격 : " + finalPrice + "원");
+		
+		sc.close();
 	}
 
 }
