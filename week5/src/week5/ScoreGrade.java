@@ -29,7 +29,7 @@ public class ScoreGrade {
 			if (score > 0) {
 				System.out.println("SCORE     GRADE");
 				System.out.println("===============");
-				System.out.printf("   %d        %c\n",score,grade);				
+				System.out.printf("   %d        %c\n",score, grade);				
 			}
 			
 		} while (score > 0);
