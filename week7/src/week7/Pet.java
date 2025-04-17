@@ -9,16 +9,11 @@ public class Pet {
 	
 	Pet(String name, String type){
 		
-		this.name = name;
-		this.type = type;
-		this.age = 0;
-		this.color = "미정";
+		this(name, type, 0, "미정");
 		
 	}
 	Pet(String name, String type, int age){
-		this.name = name;
-		this.type = type;
-		this.age = age;
+		this(name, type, age, "미정");
 		
 	}
 	Pet(String name, String type, int age, String color){
